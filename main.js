@@ -1,5 +1,4 @@
-let numero = Number(prompt(`1 escribe un numero`,2.4));
-let numero1 = Number(prompt(`2 escribe un numero`,2.4));
-let numero2 = Number(prompt(`3 escribe un numero`,2.4));
-console.log(`el numero menor entre ${numero}, ${numero1}, ${numero2} es: `);
-console.log(Math.min(numero,numero1,numero2));
+let numero = Number(prompt(`1 escribe un numero base`,2));
+let numero1 = Number(prompt(`2 escribe un numero al que quiere elevarlo`,4));
+console.log(`el resultado de  elevar ${numero} entre ${numero1} es: `);
+console.log(Math.pow(numero,numero1));
