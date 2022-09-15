@@ -1,2 +1,3 @@
+let a = Number(prompt(`escribe un numero decimal para redondear`));
 
-console.log(Math.floor(Math.random()*6+1));
+console.log(Math.round(a));
